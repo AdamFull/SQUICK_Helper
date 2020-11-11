@@ -29,6 +29,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="mainwindow.ui" line="51"/>
+        <location filename="mainwindow.ui" line="73"/>
+        <source>9600</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="mainwindow.ui" line="58"/>
         <source>1200</source>
         <translation type="unfinished"></translation>
@@ -41,12 +47,6 @@
     <message>
         <location filename="mainwindow.ui" line="68"/>
         <source>4800</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="mainwindow.ui" line="51"/>
-        <location filename="mainwindow.ui" line="73"/>
-        <source>9600</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -80,11 +80,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="224"/>
-        <source>Update firmware</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="127"/>
         <source>Log</source>
         <translation type="unfinished"></translation>
@@ -115,13 +110,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="162"/>
-        <source>Open File</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="mainwindow.cpp" line="162"/>
-        <source>Firmware (*.hex)</source>
+        <location filename="mainwindow.ui" line="224"/>
+        <source>Update firmware</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -134,104 +124,14 @@
         <source>Table files (*.csv);;Text files (*.txt)</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>OpenComDialog</name>
     <message>
-        <location filename="dialog.ui" line="14"/>
-        <source>Open</source>
+        <location filename="mainwindow.cpp" line="162"/>
+        <source>Open File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialog.ui" line="20"/>
-        <location filename="dialog.ui" line="38"/>
-        <location filename="dialog.ui" line="42"/>
-        <source>Select com port</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="28"/>
-        <source>Com port</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="54"/>
-        <source>Baud rate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="80"/>
-        <source>300</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="85"/>
-        <source>1200</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="90"/>
-        <source>2400</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="95"/>
-        <source>4800</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="100"/>
-        <source>9600</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="105"/>
-        <source>19200</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="110"/>
-        <source>38400</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="115"/>
-        <source>57600</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="120"/>
-        <source>74880</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="125"/>
-        <source>115200</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="130"/>
-        <source>230400</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="135"/>
-        <source>250000</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="140"/>
-        <source>500000</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="145"/>
-        <source>1000000</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialog.ui" line="150"/>
-        <source>2000000</source>
+        <location filename="mainwindow.cpp" line="162"/>
+        <source>Firmware (*.hex)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

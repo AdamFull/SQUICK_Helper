@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(untitled LANGUAGES CXX)
+project(SQUICK_Helper LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -29,18 +29,22 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets LinguistTools REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS SerialPort REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Charts REQUIRED)
 
-set(TS_FILES untitled_en_US.ts)
+set(TS_FILES SQUICK_Helper_en_US.ts)
 
 if(ANDROID)
-  add_library(untitled SHARED
+  add_library(SQUICK_Helper SHARED
     main.cpp
     mainwindow.cpp
     mainwindow.h
+    uartworker.cpp
+    uartworker.h
+    customgraph.cpp
+    customgraph.h
     mainwindow.ui
     ${TS_FILES}
   )
 else()
-  add_executable(untitled
+  add_executable(SQUICK_Helper
     main.cpp
     mainwindow.cpp
     mainwindow.h
@@ -53,6 +57,6 @@ else()
   )
 endif()
 
-target_link_libraries(untitled PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::SerialPort Qt${QT_VERSION_MAJOR}::Charts)
+target_link_libraries(SQUICK_Helper PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::SerialPort Qt${QT_VERSION_MAJOR}::Charts)
 
 qt5_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
